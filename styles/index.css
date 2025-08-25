@@ -1,0 +1,32 @@
+h1 {
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+    background-color: silver;
+}
+h2 {
+    color: darkslategray;
+}
+
+.how-to-list {
+    color: blue;
+    color: green;
+    color: rgb(110, 231, 204)
+}
+.thelist {
+    color: rgb(100, 215, 255);
+}
+.image-on-formatting {
+    width: 300px;
+} 
+body {
+    background-color: rgb(131, 103, 164);
+    /* this is the color i actually want for my
+        background, but i'll put in a picture 
+        for practice */
+    background-image: url(../images/purple-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200vh;
+}
