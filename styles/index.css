@@ -10,9 +10,8 @@ h2 {
 }
 
 .how-to-list {
-    color: blue;
-    color: green;
-    color: rgb(110, 231, 204)
+    color: rgb(110, 231, 204);
+    background-color: rgb(230, 230, 230, 0.3);
 }
 .thelist {
     color: rgb(100, 215, 255);
@@ -22,12 +21,15 @@ h2 {
     border-style: solid;
     border-width: 10px;
     border-color: saddlebrown;
+    border-style: groove;
+    box-shadow: 5px 5px 10px rgb(31, 3, 65);
 }
-image { 
+img { 
     border-style: solid;
-    border-width: 5px;
+    border-width: 30px;
     border-color: saddlebrown;
-} 
+} /*ett annat alternativ som funkar, men den läser inte över?*/
+
 body {
     background-color: rgb(131, 103, 164);
     /* this is the color i actually want for my
